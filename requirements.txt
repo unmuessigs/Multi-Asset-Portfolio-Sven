@@ -1,0 +1,10 @@
+streamlit>=1.36
+plotly>=5.20
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+yfinance>=0.2.40
+# QuantLib is optional. The platform ships with native, well-documented
+# pricing engines (Black-Scholes, bond math). Install QuantLib only if you
+# want to cross-check valuations:
+# QuantLib>=1.33
